@@ -14,7 +14,7 @@ import lombok.Setter;
 
 @Entity
 @Table(name= "UESRS")
-@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
+@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)//按照駝峰命名起TABLE column名
 @Getter
 @Setter
 @Builder

@@ -4,14 +4,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 import com.example.demojunittest.mapper.EntityMapper;
 import com.example.demojunittest.model.Student;
 import com.example.demojunittest.repository.StudentRepository;
-import lombok.val;
 
+@Service
 public class StudentService {
 
 
